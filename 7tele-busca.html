@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Configurações básicas do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CãoPeaão PetShop</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" type="text/css" href="7style-teleBusca.css">
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <!-- Botão de retorno -->
+        <a href="6calendario.html">
+            <button class="return-button">↩️</button>
+        </a>
+        <!-- Informação no cabeçalho -->
+        <div class="header-info">
+            <span>Tele-busca</span>
+        </div>
+        <!-- Botão do carrinho -->
+        <a href="8pedido.html">
+            <button class="cart-button">🛒</button>
+        </a>
+    </header>
+
+    <!-- Seção principal da página -->
+    <main>
+        <!-- Pergunta principal -->
+        <p>Podemos buscar seu pet em casa?</p>
+
+        <!-- Botões de opção -->
+        <div class="button-container">
+            <button onclick="selecionarOpcao('sim')" id="simButton">Sim</button>
+            <button onclick="selecionarOpcao('nao')" id="naoButton">Não</button>
+        </div>
+
+        <!-- Contêiner de imagem -->
+        <div class="image-container">
+            <img src="tele-busca.gif" alt="Animação mostrando um cachorro pegando vento no carro de tele-busca">
+        </div>
+    </main>
+
+    <!-- Botão de continuação -->
+    <div class="continue-button">
+        <a href="8pedido.html"><button>Continue</button></a>
+    </div>
+
+    <!-- Script JavaScript para seleção de opções -->
+    <script src="7js-teleBusca.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Configurações iniciais do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento com Pix</title>
+
+    <!-- Link para o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="9style-pagamento.css">
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <a href="8pedido.html">
+            <button class="return-button">↩️</button>
+        </a>
+        <div class="header-info">
+            <span>CãoPeaão PetShop</span>
+        </div>
+        <a href="8pedido.html">
+            <button class="cart-button">🛒</button>
+        </a>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <p class="blue-text">Pague com Pix</p>
+
+        <!-- Exemplo de exibição de QR Code -->
+        <div class="qr-code">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=example_pix_code" alt="QR Code">
+        </div>
+    </main>
+
+    <!-- Botão de continuação -->
+    <div class="continue-button">
+        <a href="10obrigada.html"><button>Continue</button></a>
+    </div>
+
+    <!-- Script JavaScript para seleção de opções -->
+    <script src="9js-pagamento.js"></script>
+
+</body>
+</html>
+

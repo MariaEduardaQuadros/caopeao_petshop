@@ -1,0 +1,72 @@
+/* Definindo estilos para o corpo da página */
+body {
+    background-color: #ffffff; /* Cor de fundo branca */
+    text-align: center; /* Centraliza o texto */
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    margin: 0; /* Remove margens padrão */
+    padding: 20px; /* Adiciona preenchimento interno de 20 pixels */
+}
+
+/* Estilos para o cabeçalho da página */
+header {
+    display: flex; /* Usa o modelo de layout flexível */
+    justify-content: space-between; /* Espaço uniforme entre os elementos */
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 20px; /* Adiciona preenchimento interno de 20 pixels */
+    background-color: #ffffff; /* Cor de fundo branca */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    width: 100%; /* Largura total da tela */
+    box-sizing: border-box; /* Inclui bordas e preenchimento na largura total */
+}
+
+/* Estilos para o elemento de carrossel */
+#carousel {
+    width: 80%; /* Largura do carrossel de 80% */
+    margin: 20px auto; /* Margem superior e inferior de 20 pixels, centralizado horizontalmente */
+    overflow: hidden; /* Esconde conteúdo adicional que ultrapassa a largura */
+    position: relative; /* Posição relativa para posicionar elementos filhos */
+}
+
+/* Estilos para as imagens dentro do carrossel */
+#carousel img {
+    width: 100%; /* Largura total da imagem */
+    max-width: 300px; /* Largura máxima de 300 pixels */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    display: none; /* Inicialmente esconde as imagens */
+}
+
+/* Estilos específicos para a imagem ativa no carrossel */
+#carousel img.active {
+    display: block; /* Exibe a imagem ativa */
+}
+
+/* Estilos para a seção de produtos */
+#produto {
+    margin-top: 20px; /* Margem superior de 20 pixels para a seção de produtos */
+}
+
+/* Estilos para a área de preço */
+#preco {
+    background-color: #00ff00; /* Cor de fundo verde */
+    padding: 10px; /* Adiciona preenchimento interno de 10 pixels */
+    display: inline-block; /* Exibe como bloco em linha */
+}
+
+/* Estilos para o botão do carrinho */
+#botao-carrinho {
+    background-color: #3498db; /* Cor de fundo azul */
+    color: #ffffff; /* Cor do texto branca */
+    padding: 10px 20px; /* Preenchimento interno de 10 pixels vertical e 20 pixels horizontal */
+    font-size: 16px; /* Tamanho da fonte de 16 pixels */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove decoração de texto padrão */
+    display: inline-block; /* Exibe como bloco em linha */
+    cursor: pointer; /* Altera o cursor para indicar interatividade */
+    border-radius: 5px; /* Borda arredondada com raio de 5 pixels */
+    margin-top: 20px; /* Margem superior de 20 pixels */
+}
+
+/* Efeito de hover para o botão do carrinho */
+#botao-carrinho:hover {
+    background-color: #2980b9; /* Cor de fundo azul mais escura no hover */
+}

@@ -1,0 +1,108 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Fundo branco para toda a página */
+    color: #000000; /* Letras pretas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Estilos para o cabeçalho da página */
+header {
+    background-color: #f0f0f0; /* Cor de fundo do cabeçalho */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed; /* Fixa o cabeçalho no topo da página */
+    top: 0;
+    z-index: 1000; /* Coloca o cabeçalho acima do conteúdo da página */
+    margin-bottom: 20px; /* Adiciona margem na parte inferior do cabeçalho */
+}
+
+/* Estilos para o botão de menu no cabeçalho */
+.menu-button {
+    font-size: 20px; /* Tamanho do emoji */
+    cursor: pointer;
+}
+
+/* Estilos para a seção principal da página */
+main {
+    text-align: center;
+    margin-top: 70px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para cada produto no carrinho */
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    margin-bottom: 10px;
+}
+
+/* Estilos para as imagens dos produtos */
+.product img {
+    width: 20%; /* Aumenta a largura da imagem */
+    margin-right: 10px; /* Espaço à direita da imagem */
+    max-height: 100%; /* Garante que a imagem não ultrapasse a altura do contêiner */
+}
+
+/* Estilos para as informações do produto */
+.product-info {
+    width: 80%; /* Ajusta a largura da seção de informações do produto */
+    text-align: left;
+}
+
+/* Estilos para o título do produto */
+.product-info h3 {
+    margin-bottom: 10px;
+}
+
+/* Estilos para os botões de quantidade */
+.quantity-button {
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Estilos para o valor total */
+.total-price {
+    background-color: #4caf50; /* Fundo verde para o valor total */
+    color: #ffffff; /* Letras brancas */
+    padding: 5px 10px;
+    border-radius: 15px; /* Borda arredondada */
+    margin-top: 10px;
+    width: 20%;
+}
+
+/* Estilos para o botão de finalizar compra */
+.finish-button {
+    display: inline-block;
+    background-color: #3498db; /* Cor azul para o botão Finalizar */
+    color: #ffffff; /* Letras brancas no botão Finalizar */
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* Bordas arredondadas */
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    animation: blink 1s infinite; /* Adiciona a animação de piscar */
+}
+
+/* Animação de piscar para o botão Finalizar */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,29 @@
+/* Estilos para o corpo da página */
+body {
+    background-color: #ffffff; /* Cor de fundo branca */
+    margin: 0; /* Remover margens padrão do corpo */
+    font-family: Arial, sans-serif; /* Tipo de fonte para o corpo da página */
+    color: #000000; /* Cor do texto preto */
+    display: flex; /* Usar o modelo de layout flexível */
+    flex-direction: column; /* Organizar os elementos em coluna */
+    align-items: center; /* Centralizar os elementos ao longo do eixo transversal */
+    text-align: center; /* Centralizar o texto dentro dos elementos */
+}
+
+/* Estilos para o cabeçalho da página */
+header {
+    display: flex; /* Usar o modelo de layout flexível para o cabeçalho */
+    justify-content: space-between; /* Espaço uniforme entre os elementos no cabeçalho */
+    align-items: center; /* Centralizar os elementos ao longo do eixo transversal no cabeçalho */
+    padding: 20px; /* Preenchimento interno de 20 pixels no cabeçalho */
+    background-color: #ffffff; /* Cor de fundo branca para o cabeçalho */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para o cabeçalho */
+    width: 100%; /* Largura total do cabeçalho */
+    box-sizing: border-box; /* Incluir a largura e altura total, incluindo o preenchimento e a borda */
+}
+
+/* Estilos para a classe linha-digitavel */
+.linha-digitavel {
+    color: green; /* Cor do texto verde para a classe linha-digitavel */
+    margin-top: 20px; /* Margem superior de 20 pixels para a classe linha-digitavel */
+}

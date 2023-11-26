@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Configuração de codificação e viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página -->
+    <title>CãoPeaão PetShop</title>
+
+    <!-- Vincula o arquivo de estilo externo -->
+    <link rel="stylesheet" href="3styles-banhoTosa.css">
+
+    <!-- Adicione o script para lidar com o redirecionamento -->
+    <script src="3js-banhoTosa.js" defer></script>
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <a href="2promocao.html">
+            <button class="return-button">↩️</button>
+        </a>
+        <div class="header-info">
+            <span>Serviço de Banho e Tosa</span>
+        </div>
+        <a href="8pedido.html">
+            <button class="cart-button">🛒</button>
+        </a>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <img src="banhoetosa.jpg" alt="Imagem do serviço de Banho e Tosa" onclick="showEnlargedImage()">
+
+        <div class="service">
+            <p><span>Serviço de Banho e Tosa</span></p>
+            <p class="price">Preço: <span id="service-price">R$70,00</span></p>
+        </div>
+        
+        <div class="rating">
+            <p>Avaliação:</p>
+            ⭐⭐⭐⭐⭐
+        </div>
+
+        <!-- Botões de escolha do serviço -->
+        <div class="service-buttons">
+            <button class="service-button selected" onclick="updatePrice(170.56, this)">Banho e Tosa Completa</button>
+            <button class="service-button" onclick="updatePrice(149.99, this)">Banho e Tosa Higiênica</button>
+            <button class="service-button" onclick="updatePrice(70.00, this)">Somente Banho</button>
+        </div>
+
+        <!-- Botão para continuar -->
+        <a href="4formulario.html"><button class="continue-button">Clique para Continuar</button></a>
+
+    </main>
+
+</body>
+</html>

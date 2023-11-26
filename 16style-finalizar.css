@@ -1,0 +1,110 @@
+/* Estilos globais para o corpo da página */
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilos para o cabeçalho da página */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilos para o ícone de menu e o botão "Finalizar pedido" no cabeçalho */
+#menu {
+    cursor: pointer;
+    font-size: 24px;
+    color: black; /* Azul */
+}
+
+#finalizar-pedido {
+    color: black;
+}
+
+/* Estilos para a seção de pedidos */
+#pedido {
+    color: #2b00aa;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#produtos {
+    margin: 20px;
+}
+
+/* Estilos para cada item de produto na seção de pedidos */
+.item-produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Estilos para a descrição do produto na seção de pedidos */
+.descricao-produto {
+    flex: 1;
+    margin-right: 10px;
+    text-align: left;
+    color: #000000;
+}
+
+/* Estilos para a quantidade e o valor na seção de pedidos */
+.quantidade-valor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* Estilos para a seção de endereço e forma de pagamento */
+#endereco {
+    color: #00aa00;
+    margin: 20px;
+}
+
+/* Estilos para as opções de forma de pagamento */
+.forma-pagamento {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+/* Estilos para os botões na página */
+.botao {
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Estilos para o hover nos botões */
+.botao:hover {
+    background-color: #0056b3; /* Tom mais escuro de azul */
+}
+
+/* Estilos para a seleção de botões */
+.selecionado {
+    background-color: #66a3ff; /* Azul mais claro */
+}
+
+/* Estilos específicos para o botão "Finalizar" */
+#finalizar-btn {
+    margin-top: 20px;
+    width: 30%;
+}

@@ -1,0 +1,99 @@
+/* Estilo global para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão para o corpo do texto */
+    margin: 0;
+    padding: 0;
+    background: white; /* Cor de fundo branco */
+}
+
+/* Estilo para o cabeçalho da página */
+header h1 {
+    text-align: center;
+    padding: 20px;
+    color: #000000; /* Texto preto */
+}
+
+/* Estilo para o subtítulo do cabeçalho */
+header h2 {
+    text-align: center;
+    color: #064BB5; /* Texto azul */
+}
+
+/* Estilo para a seção principal da página */
+section {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para os elementos de promoção */
+.promotion {
+    padding: 4px;
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 13%;
+    left: auto;
+    overflow: hidden; /* Adicionado para esconder a borda durante o efeito de zoom */
+}
+
+/* Estilo para as imagens de promoção */
+.promotion img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #BCFF5E; /* Borda verde */
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s; /* Adicionado para criar um efeito suave de transição */
+}
+
+/* Efeito de zoom ao passar o cursor sobre a imagem de promoção */
+.promotion img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo padrão para outras imagens */
+img {
+    width: 70%;
+    height: auto;
+    border: 2px solid #BCFF5E; /* Borda verde */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para títulos, subtítulos e parágrafos */
+h1, h2, p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilo para a seção de imagem inferior */
+.bottom-image {
+    font-family: Candara, sans-serif; /* Fonte específica para essa seção */
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilo para as imagens na seção inferior */
+.bottom-image img {
+    width: 20%;
+    height: auto;
+    border: 2px solid #dcd4d4; /* Borda cinza */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para o parágrafo na seção inferior */
+.bottom-image p {
+    margin-top: 10px;
+}
+
+/* Estilo para o ícone do menu */
+.menu-icon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 34px;
+    cursor: pointer;
+    margin: 20px;
+}

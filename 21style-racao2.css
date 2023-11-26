@@ -1,0 +1,72 @@
+/* Define o estilo padrão do corpo (body) da página */
+body {
+    background-color: #ffffff; /* Cor de fundo branca */
+    text-align: center; /* Centraliza o texto */
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    margin: 0; /* Remove as margens padrão */
+    padding: 20px; /* Adiciona um espaçamento interno de 20px */
+}
+
+/* Estilo do cabeçalho (header) da página */
+header {
+    display: flex; /* Usa o modelo de layout flexível */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 20px; /* Adiciona um espaçamento interno de 20px */
+    background-color: #ffffff; /* Cor de fundo branca */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    width: 100%; /* Largura total da tela */
+    box-sizing: border-box; /* Garante que a largura inclua a borda e o preenchimento */
+}
+
+/* Estilo do elemento com o id "carousel" */
+#carousel {
+    width: 80%; /* Largura de 80% do contêiner pai */
+    margin: 20px auto; /* Margens superior e inferior de 20px, centralizado horizontalmente */
+    overflow: hidden; /* Esconde conteúdo que ultrapassa as bordas */
+    position: relative; /* Define a posição relativa para os filhos posicionados absolutamente */
+}
+
+/* Estilo das imagens dentro do elemento com o id "carousel" */
+#carousel img {
+    width: 100%; /* Largura de 100% do contêiner pai */
+    max-width: 300px; /* Largura máxima de 300px */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    display: none; /* Inicialmente, as imagens são ocultas */
+}
+
+/* Estilo da imagem com a classe "active" dentro do elemento com o id "carousel" */
+#carousel img.active {
+    display: block; /* Exibe a imagem com a classe "active" */
+}
+
+/* Estilo do elemento com o id "produto" */
+#produto {
+    margin-top: 20px; /* Margem superior de 20px */
+}
+
+/* Estilo do elemento com o id "preco" */
+#preco {
+    background-color: #00ff00; /* Cor de fundo verde */
+    padding: 10px; /* Adiciona um espaçamento interno de 10px */
+    display: inline-block; /* Torna o elemento um bloco de linha com espaçamento interno */
+}
+
+/* Estilo do botão com o id "botao-carrinho" */
+#botao-carrinho {
+    background-color: #3498db; /* Cor de fundo azul */
+    color: #ffffff; /* Cor do texto branco */
+    padding: 10px 20px; /* Preenchimento de 10px superior/inferior e 20px esquerda/direita */
+    font-size: 16px; /* Tamanho da fonte de 16 pixels */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove sublinhado padrão de links */
+    display: inline-block; /* Torna o elemento um bloco de linha com espaçamento interno */
+    cursor: pointer; /* Muda o cursor para um ponteiro ao passar por cima */
+    border-radius: 5px; /* Borda arredondada */
+    margin-top: 20px; /* Margem superior de 20px */
+}
+
+/* Estilo do botão com o id "botao-carrinho" ao passar o mouse por cima */
+#botao-carrinho:hover {
+    background-color: #2980b9; /* Cor de fundo azul mais escura */
+}

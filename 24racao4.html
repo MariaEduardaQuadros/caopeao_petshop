@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Configurações do cabeçalho -->
+    <meta charset="UTF-8"> <!-- Conjunto de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuração para dispositivos móveis -->
+    <title>CãoPeão PetShop</title> <!-- Título da página -->
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="24style-racao4.css">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <div id="finalizar-pedido">Acompanhe seu pedido</div>
+        <a href="14menu.html" class="menu-button">⋮⋮⋮⋮</a>
+    </header>
+
+    <!-- Carrossel de imagens -->
+    <div id="carousel">
+        <img src="cao-filhote.jpg" alt="Ração para cão filhote sabor carne e arroz" class="active" onclick="nextSlide()">
+        <img src="cao-filhote2.jpg" alt="Ração para cão filhote sabor carne e arroz" class="inactive" onclick="nextSlide()">
+        <!-- Adicione mais imagens conforme necessário -->
+    </div>
+
+    <!-- Informações do produto -->
+    <div id="produto">
+        <h2>Cães Filhotes - carne e arroz.</h2>
+        <div id="preco">$200.99</div>
+    </div>
+
+    <!-- Descrição do produto -->
+    <div>
+        <h3>Descrição:</h3>
+        <p>Indicada para cães filhotes de porte pequeno; auxilia a redução da formação do tártaro; redução do odor das fezes, e combinação de nutrientes de alta digestibilidade e fibras naturais.</p>
+    </div>
+
+    <!-- Botão para adicionar ao carrinho -->
+    <a href="15carrinho.html" id="botao-carrinho">Clique para adicionar ao carrinho</a>
+
+    <!-- Script JavaScript para o carrossel -->
+    <script src="24js-racao4.js"></script>
+</body>
+</html>

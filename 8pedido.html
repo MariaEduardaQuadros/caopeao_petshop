@@ -1,0 +1,59 @@
+<!-- Adiciona a folha de estilo ao documento -->
+<link rel="stylesheet" type="text/css" href="8style-pedido.css">
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CãoPeaão PetShop</title>
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <!-- Link de retorno para a página de busca -->
+        <a href="7tele-busca.html">
+            <button class="return-button">↩️</button>
+        </a>
+        <!-- Informações no cabeçalho -->
+        <div class="header-info">
+            <span>Agendamento</span>
+        </div>
+    </header>
+
+    <!-- Seção principal da página -->
+    <main>
+        <!-- Informações sobre a data do agendamento -->
+        <p class="blue-text">Data agendamento</p>
+        <p class="black-text">25/11, às 14hrs.</p>
+
+        <!-- Informações sobre os serviços agendados -->
+        <p class="blue-text">Serviço</p>
+        <p class="black-text">
+            Banho &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  R$70.99<br>
+            Tele-busca &nbsp;&nbsp;&nbsp; R$10.00<br>
+            TOTAL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  R$80.99
+        </p>        
+
+        <!-- Informações sobre a forma de pagamento -->
+        <p class="blue-text">Forma de pagamento</p>
+
+        <!-- Botões para seleção da forma de pagamento -->
+        <div class="payment-buttons">
+            <button id="pixButton" onclick="selecionarFormaPagamento('pix')">Pix</button>
+            <button id="boletoButton" onclick="selecionarFormaPagamento('boleto')">Boleto</button>
+        </div>
+
+    </main>
+
+    <!-- Botão para continuar para a página de pagamento -->
+    <div class="continue-button">
+        <a href="9pagamento.html"><button>Continue</button></a>
+    </div>
+
+    <!-- Inclui o script JavaScript -->
+    <script src="8js-pedido.js"></script>
+
+</body>
+</html>

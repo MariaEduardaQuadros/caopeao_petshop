@@ -1,0 +1,69 @@
+/* Estilos para o corpo da página */
+body {
+    background-color: #ffffff; /* Define a cor de fundo para branco */
+    text-align: center; /* Centraliza o texto no corpo da página */
+    font-family: Arial, sans-serif; /* Especifica a fonte para o corpo do texto */
+    margin: 0; /* Remove as margens padrão do corpo da página */
+    padding: 20px; /* Adiciona um preenchimento interno de 20 pixels no corpo da página */
+}
+
+/* Estilos para o cabeçalho da página */
+header {
+    display: flex; /* Usa o modelo de layout flexível para o cabeçalho */
+    justify-content: space-between; /* Distribui o espaço igualmente entre os itens do cabeçalho */
+    align-items: center; /* Centraliza verticalmente os itens do cabeçalho */
+    padding: 20px; /* Adiciona um preenchimento interno de 20 pixels no cabeçalho */
+    background-color: #ffffff; /* Define a cor de fundo para branco */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao cabeçalho */
+    width: 100%; /* Define a largura do cabeçalho como 100% da largura da tela */
+    box-sizing: border-box; /* Garante que o preenchimento e a borda não aumentem a largura total */
+}
+
+/* Estilos para o carrossel de imagens */
+#carousel {
+    width: 80%; /* Define a largura do carrossel como 80% da largura do contêiner pai */
+    margin: 20px auto; /* Adiciona margens de 20 pixels nas laterais e 20 pixels no topo/baixo e centraliza o carrossel horizontalmente */
+    overflow: hidden; /* Esconde qualquer conteúdo adicional além das bordas do carrossel */
+    position: relative; /* Define a posição como relativa para posicionar os itens internos de forma absoluta */
+}
+
+#carousel img {
+    width: 100%; /* Define a largura da imagem como 100% do contêiner pai */
+    max-width: 300px; /* Limita a largura máxima da imagem a 300 pixels */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente dentro do carrossel */
+    display: none; /* Inicialmente, oculta todas as imagens do carrossel */
+}
+
+#carousel img.active {
+    display: block; /* Exibe apenas a imagem marcada como ativa */
+}
+
+/* Estilos para a seção de produto */
+#produto {
+    margin-top: 20px; /* Adiciona uma margem superior de 20 pixels à seção de produto */
+}
+
+/* Estilos para a exibição de preço */
+#preco {
+    background-color: #00ff00; /* Define a cor de fundo para verde */
+    padding: 10px; /* Adiciona um preenchimento interno de 10 pixels à exibição de preço */
+    display: inline-block; /* Permite que a exibição de preço se comporte como um bloco em linha */
+}
+
+/* Estilos para o botão de carrinho */
+#botao-carrinho {
+    background-color: #3498db; /* Define a cor de fundo para azul */
+    color: #ffffff; /* Define a cor do texto como branco */
+    padding: 10px 20px; /* Adiciona preenchimento interno de 10 pixels nas laterais e 20 pixels no topo/baixo ao botão */
+    font-size: 16px; /* Define o tamanho da fonte como 16 pixels */
+    text-align: center; /* Centraliza o texto no botão */
+    text-decoration: none; /* Remove a decoração de texto padrão (sublinhado) */
+    display: inline-block; /* Permite que o botão se comporte como um bloco em linha */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar sobre o botão */
+    border-radius: 5px; /* Adiciona cantos arredondados ao botão */
+    margin-top: 20px; /* Adiciona uma margem superior de 20 pixels ao botão */
+}
+
+#botao-carrinho:hover {
+    background-color: #2980b9; /* Altera a cor de fundo para azul mais escuro ao passar o mouse sobre o botão */
+}

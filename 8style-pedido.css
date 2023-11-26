@@ -1,0 +1,124 @@
+/* styles.css */
+
+/* Configurações gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;    /* Define a fonte do texto */
+    margin: 0;                         /* Remove margens externas */
+    padding: 0;                        /* Remove preenchimento interno */
+    background-color: #ffffff;         /* Define a cor de fundo como branco */
+    color: #000000;                    /* Define a cor do texto como preto */
+    display: flex;                     /* Usa um layout flexível */
+    flex-direction: column;            /* Define a direção da flexbox como coluna */
+    align-items: center;                /* Alinha os itens ao centro no eixo transversal */
+    justify-content: center;           /* Alinha os itens ao centro no eixo principal */
+    height: 100vh;                     /* Ocupa 100% da altura da viewport */
+}
+
+/* Estilo para o cabeçalho da página */
+header {
+    background-color: #f0f0f0;         /* Cor de fundo do cabeçalho */
+    padding: 10px;                     /* Adiciona preenchimento interno de 10 pixels */
+    display: flex;                     /* Usa um layout flexível */
+    justify-content: space-between;    /* Distribui o espaço entre os elementos filhos */
+    width: 100%;                       /* Ocupa 100% da largura disponível */
+    position: absolute;                /* Define a posição como absoluta em relação ao viewport */
+    top: 0;                            /* Coloca o cabeçalho no topo da página */
+}
+
+/* Define estilos para botões de retorno e carrinho */
+.return-button {
+    background-color: #ffffff;          /* Define a cor de fundo como branco */
+    color: #3498db;                    /* Define a cor do texto como azul claro */
+    padding: 10px;                     /* Adiciona espaçamento interno de 10 pixels */
+    border: 1px solid #3498db;         /* Adiciona uma borda de 1 pixel sólida com a cor azul claro */
+    cursor: pointer;                   /* Altera o cursor para indicar que é clicável */
+    border-radius: 10px;               /* Adiciona bordas arredondadas com raio de 10 pixels */
+}
+
+/* Define estilos para informações no cabeçalho */
+.header-info {
+    text-align: center;                /* Centraliza o texto no cabeçalho */
+    flex-grow: 1;                      /* Permite que o elemento cresça para preencher o espaço disponível */
+    margin: 10px;                      /* Adiciona margem de 10 pixels */
+}
+
+/* Estilo para o texto especial no cabeçalho */
+.header-info span {
+    font-size: 20px;                   /* Define o tamanho da fonte como 20 pixels */
+    color: #3498db;                    /* Define a cor do texto como azul claro */
+}
+
+/* Define estilos para botões de retorno e carrinho com tamanho de fonte */
+.return-button {
+    font-size: 20px;                   /* Define o tamanho da fonte como 20 pixels */
+    cursor: pointer;                   /* Altera o cursor para indicar que é clicável */
+}
+
+/* Estilos para a seção principal da página */
+main {
+    text-align: center;                /* Centraliza o texto */
+    margin: 20px;                      /* Adiciona margem de 20 pixels */
+    width: 80%;                        /* Ocupa 80% da largura disponível */
+}
+
+/* Estilos para parágrafos */
+p {
+    margin-bottom: 10px;               /* Adiciona margem inferior de 10 pixels */
+}
+
+/* Estilos para texto azul */
+.blue-text {
+    color: #3498db;                    /* Define a cor do texto como azul claro */
+    font-size: 25px;                   /* Define o tamanho da fonte como 25 pixels */
+}
+
+/* Estilos para texto preto */
+.black-text {
+    color: #000000;                    /* Define a cor do texto como preto */
+}
+
+/* Estilos para botões de pagamento */
+.payment-buttons {
+    display: flex;                     /* Usa um layout flexível */
+    justify-content: center;           /* Centraliza os itens no eixo principal */
+    margin-top: 20px;                  /* Adiciona margem superior de 20 pixels */
+    margin-bottom: 10px;               /* Adiciona margem inferior de 10 pixels */
+}
+
+/* Estilos gerais para botões */
+button {
+    background-color: #3498db;         /* Define a cor de fundo como azul claro */
+    color: #ffffff;                    /* Define a cor do texto como branco */
+    padding: 6px 12px;                 /* Adiciona preenchimento interno de 6 pixels na vertical e 12 pixels na horizontal */
+    border: none;                      /* Remove a borda */
+    cursor: pointer;                   /* Altera o cursor para indicar que é clicável */
+    border-radius: 8px;                /* Adiciona bordas arredondadas com raio de 8 pixels */
+    font-size: 14px;                   /* Define o tamanho da fonte como 14 pixels */
+    white-space: nowrap;               /* Impede a quebra de texto em várias linhas */
+    margin: 0 5px;                     /* Adiciona margem nas laterais de 0 a 5 pixels */
+}
+
+/* Estilos para botão de continuar */
+.continue-button {
+    margin-top: 20px;                  /* Adiciona margem superior de 20 pixels */
+}
+
+/* Estilos para link dentro do botão de continuar */
+.continue-button a {
+    text-decoration: none;             /* Remove a decoração de link */
+}
+
+/* Estilos para o botão de continuar dentro do botão de continuar */
+.continue-button button {
+    background-color: #27ae60;         /* Define a cor de fundo como verde */
+    color: #ffffff;                    /* Define a cor do texto como branco */
+    padding: 8px 30px;                 /* Adiciona preenchimento interno de 8 pixels na vertical e 30 pixels na horizontal */
+    border: none;                      /* Remove a borda */
+    cursor: pointer;                   /* Altera o cursor para indicar que é clicável */
+    border-radius: 8px;                /* Adiciona bordas arredondadas com raio de 8 pixels */
+}
+
+/* Estilo para botão selecionado */
+.button-selected {
+    background-color: #27ae60;         /* Define a cor de fundo como verde */
+}

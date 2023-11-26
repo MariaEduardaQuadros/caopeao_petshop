@@ -1,0 +1,67 @@
+/* Estilo para o corpo (body) da página */
+body {
+    font-family: Arial, sans-serif; /* Definindo a família da fonte */
+    margin: 0; /* Removendo a margem padrão */
+    padding: 0; /* Removendo o preenchimento padrão */
+    background-color: #3498db; /* Definindo a cor de fundo */
+    color: #ffffff; /* Definindo a cor do texto */
+    display: flex; /* Usando Flexbox para o layout */
+    flex-direction: column; /* Configurando a direção do flex para coluna */
+    align-items: center; /* Centralizando os itens horizontalmente */
+    justify-content: center; /* Centralizando os itens verticalmente */
+    min-height: 100vh; /* Definindo a altura mínima como 100% da altura da viewport */
+}
+
+/* Estilo para o cabeçalho (header) da página */
+header {
+    background-color: #2980b9; /* Definindo a cor de fundo */
+    padding: 10px; /* Adicionando preenchimento */
+    display: flex; /* Usando Flexbox para o layout */
+    flex-direction: column; /* Configurando a direção do flex para coluna */
+    align-items: center; /* Centralizando os itens horizontalmente */
+    width: 100%; /* Definindo a largura como 100% */
+    position: fixed; /* Fixando a posição no topo da viewport */
+    top: 0; /* Alinhando no topo */
+    z-index: 1000; /* Definindo um z-index maior para garantir que esteja acima de outros elementos */
+}
+
+/* Estilo para os elementos h1 e h2 */
+h1, h2 {
+    margin: 0; /* Removendo a margem padrão */
+}
+
+/* Estilo para o elemento h1 */
+h1 {
+    font-size: 24px; /* Definindo o tamanho da fonte */
+}
+
+/* Estilo para o elemento h2 */
+h2 {
+    font-size: 20px; /* Definindo o tamanho da fonte */
+}
+
+/* Estilo para o elemento de navegação (nav) */
+nav {
+    display: flex; /* Usando Flexbox para o layout */
+    flex-direction: column; /* Configurando a direção do flex para coluna */
+    align-items: center; /* Centralizando os itens horizontalmente */
+    margin-top: 20px; /* Adicionando margem superior */
+}
+
+/* Estilo para os links (a) */
+a {
+    text-decoration: none; /* Removendo a decoração de texto padrão para os links */
+}
+
+/* Estilo para os botões (button) */
+button {
+    background-color: #4caf50; /* Definindo a cor de fundo do botão */
+    color: #ffffff; /* Definindo a cor do texto no botão */
+    padding: 10px 20px; /* Adicionando preenchimento ao botão */
+    border: none; /* Removendo a borda do botão */
+    cursor: pointer; /* Alterando o cursor ao passar sobre o botão */
+    border-radius: 10px; /* Adicionando borda arredondada ao botão */
+    font-size: 16px; /* Definindo o tamanho da fonte no botão */
+    margin-bottom: 20px; /* Adicionando margem inferior ao botão */
+}
+

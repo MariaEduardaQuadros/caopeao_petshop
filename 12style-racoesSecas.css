@@ -1,0 +1,95 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a família de fontes para o corpo da página */
+    margin: 0; /* Remove as margens padrão do corpo da página */
+    padding: 0; /* Remove o preenchimento padrão do corpo da página */
+    background-color: #ffffff; /* Define a cor de fundo como branco */
+    color: #000000; /* Define a cor do texto como preto */
+    display: flex; /* Usa o modelo de layout flexível */
+    flex-direction: column; /* Organiza os itens em uma coluna principal */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    min-height: 100vh; /* Define a altura mínima como 100% da altura da viewport */
+}
+
+/* Estilos para o cabeçalho da página */
+header {
+    background-color: rgb(238, 238, 253); /* Define a cor de fundo do cabeçalho */
+    padding: 10px; /* Adiciona preenchimento ao redor do cabeçalho */
+    display: flex; /* Usa o modelo de layout flexível para o cabeçalho */
+    justify-content: space-between; /* Distribui o espaço disponível entre os itens */
+    align-items: center; /* Centraliza os itens verticalmente */
+    width: 100%; /* Define a largura como 100% da largura do contêiner pai */
+    position: fixed; /* Fixa o cabeçalho na parte superior da viewport enquanto rola */
+    top: 0; /* Posiciona o cabeçalho no topo da viewport */
+    z-index: 1000; /* Define a ordem de empilhamento, para aparecer sobre outros elementos */
+    margin-bottom: 20px; /* Adiciona margem na parte inferior do cabeçalho */
+}
+
+/* Estilos para os botões no cabeçalho */
+.menu-button, .cart-button {
+    font-size: 20px; /* Define o tamanho da fonte para os botões */
+    cursor: pointer; /* Muda o cursor para indicar que os botões são interativos */
+}
+
+/* Estilos para a parte esquerda do cabeçalho */
+.left-header {
+    display: flex; /* Usa o modelo de layout flexível para a parte esquerda do cabeçalho */
+    margin-left: 20px; /* Adiciona margem à esquerda da parte esquerda do cabeçalho */
+    margin-right: 20px; /* Adiciona margem à direita da parte esquerda do cabeçalho */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    text-align: center; /* Centraliza o texto dentro do elemento principal */
+    margin: 70px 20px 20px; /* Adiciona margem nas partes superior, direita e inferior do conteúdo principal */
+    width: 80%; /* Define a largura do conteúdo principal como 80% da largura do contêiner pai */
+}
+
+/* Estilos para os parágrafos */
+p {
+    margin-bottom: 10px; /* Adiciona margem na parte inferior dos parágrafos */
+}
+
+/* Estilos para texto laranja */
+.orange-text {
+    color: #ff8c00; /* Define a cor do texto como laranja */
+    margin-top: 0; /* Remove a margem superior do texto laranja */
+    margin-bottom: 5px; /* Adiciona margem na parte inferior do texto laranja */
+    font-size: 20px; /* Define o tamanho da fonte para o texto laranja */
+}
+
+/* Estilos para texto azul obliquo */
+.blue-text {
+    color: #3498db; /* Define a cor do texto como azul */
+    font-size: 20px; /* Define o tamanho da fonte para o texto azul */
+    font-style: oblique; /* Adiciona estilo oblíquo ao texto azul */
+}
+
+/* Estilos para a seção de imagens de rações */
+.ractions-images {
+    display: flex; /* Usa o modelo de layout flexível para a seção de imagens de rações */
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a linha seguinte se não houver espaço suficiente */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    margin-top: 20px; /* Adiciona margem na parte superior da seção de imagens de rações */
+}
+
+/* Estilos para os links de imagens de rações */
+.ractions-images a {
+    text-decoration: none; /* Remove a decoração de texto padrão do link */
+    width: 20%; /* Define a largura para 48% para acomodar a margem entre as imagens */
+    margin: 0 10px 20px; /* Ajuste as margens ao redor de cada imagem */
+}
+
+/* Estilos para as imagens de rações */
+.ractions-images img {
+    width: 100%; /* Faça com que a imagem ocupe 100% da largura da tag a */
+    transition: transform 0.3s; /* Adiciona um efeito de transição de escala a 0.3 segundos */
+}
+
+/* Efeito de escala ao passar o mouse sobre as imagens de rações */
+.ractions-images a:hover img {
+    transform: scale(1.2); /* Aumenta a escala da imagem ao passar o mouse sobre ela */
+}
+

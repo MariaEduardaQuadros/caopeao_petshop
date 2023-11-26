@@ -1,0 +1,34 @@
+/* Estilo global para o corpo da página */
+body {
+    background: linear-gradient(to bottom, #064BB5, #0077FF); /* Fundo com gradiente azul */
+    color: #fff; /* Texto em branco */
+    font-family: Candara, sans-serif; /* Fonte utilizada para o texto */
+    text-align: center; /* Centralizar o texto */
+    padding: 20px; /* Espaçamento interno */
+    margin: 0; /* Remover margens padrão */
+    position: relative; /* Posição relativa para posicionamento de elementos filhos */
+  }
+  
+  /* Estilo para o cabeçalho principal (logo e slogan) */
+  h1 {
+    font-size: 2em; /* Tamanho da fonte do cabeçalho principal */
+  }
+  
+  /* Estilo para a seção de branding (logo e slogan) */
+  .branding {
+    position: fixed; /* Fixar a posição no topo da página */
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex; /* Usar o modelo de layout flexível */
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    flex-direction: column; /* Coluna de layout flexível */
+    padding: 10px 0; /* Espaçamento interno */
+    z-index: 1000; /* Camada de sobreposição para ficar acima de outros elementos */
+  }
+  /* Ajuste de margem para o cabeçalho principal */
+  .branding h1 {
+    margin-left: 20px; /* Adicionar margem à esquerda para o cabeçalho principal */
+  }
+  

@@ -1,0 +1,26 @@
+/* Estilos para o corpo da página */
+body {
+    background-color: #ffffff; /* Fundo branco */
+    text-align: center; /* Texto centralizado */
+    font-family: Arial, sans-serif; /* Estilo da fonte */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilos para o cabeçalho da página */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; /* Cor de fundo do cabeçalho, se desejar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para separar do conteúdo abaixo */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilos para as palavras específicas em azul */
+.status h2,
+.status p {
+    color: black; /* Defina a cor padrão do texto */
+}

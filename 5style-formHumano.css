@@ -1,0 +1,97 @@
+/* Estilo global para o corpo da página */
+body {
+    font-family: Arial, sans-serif;  /* Define a fonte para o corpo da página */
+    margin: 0;                       /* Remove as margens padrão do corpo da página */
+    padding: 0;                      /* Remove o preenchimento padrão do corpo da página */
+    background-color: #ffffff;        /* Define a cor de fundo como branco */
+    color: #000000;                  /* Define a cor do texto como preto */
+    display: flex;                   /* Usa o modelo de layout flexível */
+    flex-direction: column;          /* Os elementos filho serão dispostos em coluna */
+    align-items: center;             /* Alinha os elementos ao centro no eixo transversal */
+    justify-content: center;         /* Centraliza os elementos no eixo principal */
+    height: 100vh;                   /* Define a altura como 100% da altura da tela */
+}
+
+/* Estilo para o cabeçalho da página */
+header {
+    background-color: #f0f0f0;       /* Define a cor de fundo do cabeçalho como cinza claro */
+    padding: 10px;                   /* Adiciona espaçamento interno de 10 pixels */
+    display: flex;                   /* Usa o modelo de layout flexível */
+    justify-content: space-between;  /* Distribui o espaço entre os elementos filhos */
+    width: 100%;                     /* Define a largura como 100% */
+    position: absolute;              /* Define a posição como absoluta em relação ao elemento pai mais próximo */
+    top: 0;                          /* Alinha o topo do cabeçalho com o topo da página */
+}
+
+/* Estilo para os botões de retorno e carrinho no cabeçalho */
+.return-button, .cart-button {
+    background-color: #ffffff;        /* Define a cor de fundo como branco */
+    color: #3498db;                  /* Define a cor do texto como azul claro */
+    padding: 10px;                   /* Adiciona espaçamento interno de 10 pixels */
+    border: 1px solid #3498db;       /* Adiciona uma borda de 1 pixel sólida com a cor azul claro */
+    cursor: pointer;                 /* Altera o cursor para indicar que é clicável */
+    border-radius: 10px;             /* Adiciona bordas arredondadas com raio de 10 pixels */
+}
+
+/* Estilo para a informação no cabeçalho */
+.header-info {
+    text-align: center;              /* Centraliza o texto no cabeçalho */
+    flex-grow: 1;                    /* Permite que o elemento cresça para preencher o espaço disponível */
+    margin: 10px;
+}
+
+/* Estilo para o texto especial no cabeçalho */
+.header-info span {
+    font-size: 20px;                 /* Define o tamanho da fonte como 20 pixels */
+    color: #3498db;                  /* Define a cor do texto como azul claro */
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    text-align: center;              /* Centraliza o texto no conteúdo principal */
+    margin: 20px;                    /* Adiciona margem de 20 pixels ao redor do conteúdo principal */
+    width: 80%;                      /* Define a largura como 80% do contêiner pai */
+}
+
+/* Estilo para o subtítulo do formulário */
+h2 {
+    color: #000000;                  /* Define a cor do texto como preto */
+}
+
+/* Estilo para o parágrafo informativo */
+p {
+    color: #3498db;                  /* Define a cor do texto como azul claro */
+    margin-bottom: 20px;             /* Adiciona margem inferior de 20 pixels */
+}
+
+/* Estilo para o formulário */
+form {
+    text-align: left;                /* Alinha o texto à esquerda dentro do formulário */
+}
+
+/* Estilo para os rótulos do formulário */
+label {
+    display: block;                  /* Transforma os rótulos em elementos de bloco */
+    margin-bottom: 5px;              /* Adiciona margem inferior de 5 pixels */
+    color: #000000;                  /* Define a cor do texto como preto */
+}
+
+/* Estilos para os campos de digitação */
+input, select {
+    width: 100%;                     /* Ocupa 100% da largura do contêiner pai */
+    padding: 8px;                    /* Adiciona preenchimento interno de 8 pixels */
+    margin-bottom: 10px;             /* Adiciona margem inferior de 10 pixels */
+    box-sizing: border-box;          /* Garante que a largura inclua a espessura da borda e o preenchimento */
+    border-radius: 5px;              /* Adiciona bordas arredondadas com raio de 5 pixels */
+    border: 1px solid #3498db;       /* Adiciona uma borda de 1 pixel sólida com a cor azul claro */
+}
+
+/* Estilos para o botão de envio do formulário */
+button {
+    background-color: #3498db;       /* Define a cor de fundo como azul claro */
+    color: #ffffff;                  /* Define a cor do texto como branco */
+    padding: 10px;                   /* Adiciona espaçamento interno de 10 pixels */
+    border: none;                    /* Remove a borda */
+    cursor: pointer;                 /* Altera o cursor para indicar que é clicável */
+    border-radius: 5px;              /* Adiciona bordas arredondadas com raio de 5 pixels */
+}

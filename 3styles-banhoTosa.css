@@ -1,0 +1,110 @@
+/* Estilo global para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #3498db;
+}
+
+/* Estilo para o cabeçalho da página */
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid rgba(52, 152, 219, 0.5);
+}
+
+/* Restante dos estilos... */
+/* Estilo para os botões de retorno e carrinho no cabeçalho */
+.return-button, .cart-button {
+    background-color: #ffffff; /* Cor de fundo dos botões */
+    color: #3498db; /* Cor do texto dos botões */
+    padding: 10px;
+    border: 1px solid #3498db; /* Borda azul nos botões */
+    cursor: pointer;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+/* Estilo para a informação no cabeçalho */
+.header-info {
+    text-align: center;
+}
+
+/* Estilo para a seção principal */
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilo para as imagens */
+img {
+    width: 30%;
+    height: auto;
+    border: 2px solid #3498db; /* Borda azul na imagem */
+    margin-top: 20px;
+    cursor: pointer; /* Altera o cursor para indicar que a imagem é clicável */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+}
+
+/* Efeito de zoom ao passar o cursor sobre a imagem */
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo para a seção de serviço */
+.service {
+    margin-top: 20px;
+}
+
+/* Estilo para a formatação do preço */
+.service span, .price span {
+    background-color: #ffffff; /* Cor de fundo da palavra */
+    color: #000000; /* Cor do texto da palavra */
+    padding: 5px;
+    display: inline-block;
+}
+
+/* Estilo para a seção de avaliação */
+.rating {
+    margin-top: 20px;
+}
+
+/* Estilo para o contêiner de botões de serviço */
+.service-buttons {
+    display: flex;
+    flex-direction: column; /* Ajuste para alinhar verticalmente */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    width: 20%;
+    margin-top: 20px;
+}
+
+/* Estilo para os botões de serviço */
+.service-button {
+    background-color: #3498db; /* Cor de fundo dos botões de serviço */
+    color: #ffffff; /* Cor do texto dos botões de serviço */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px; /* Espaçamento entre os botões */
+    width: 100%;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+/* Estilo para o botão de serviço selecionado */
+.service-button.selected {
+    background-color: #87cefa; /* Cor de fundo do botão selecionado */
+}
+
+/* Estilo para o botão de continuação */
+.continue-button {
+    background-color: #4CAF50; /* Cor de fundo do botão verde */
+    color: #ffffff; /* Cor do texto do botão verde */
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+}

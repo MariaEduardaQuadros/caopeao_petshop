@@ -1,0 +1,74 @@
+/* Estilo para a barra de navegação */
+nav {
+    background-color: rgb(80, 153, 248); /* Cor de fundo da barra de navegação */
+    display: flex; /* Usar o modelo de layout flexível */
+    justify-content: space-around; /* Espaçamento uniforme entre os itens da barra de navegação */
+    border-radius: 30px; /* Bordas arredondadas */
+    margin-top: 120px; /* Margem superior para afastar da seção de branding */
+  }
+  
+  /* Estilo para os links de navegação */
+  nav a {
+    color: #fff; /* Cor do texto branco */
+    font-size: larger; /* Tamanho da fonte maior */
+    text-decoration: none; /* Remover sublinhado dos links */
+    padding: 8px 15px; /* Espaçamento interno dos links */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.6s ease; /* Efeito de transição suave no hover */
+  }
+  
+  /* Efeito de hover nos links de navegação */
+  nav a:hover {
+    background-color: #777; /* Cor de fundo alterada no hover */
+  }
+  
+  /* Estilo para os parágrafos */
+  p {
+    font-size: 1.5em; /* Tamanho da fonte dos parágrafos */
+    margin-top: 1px; /* Espaçamento superior mínimo */
+  }
+  
+  /* Estilo do botão "Explorar" */
+  button {
+    background-color: #BCFF5E; /* Cor de fundo do botão */
+    color: #064BB5; /* Cor do texto do botão */
+    font-size: 1em; /* Tamanho da fonte do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remover borda do botão */
+    cursor: pointer; /* Mostrar cursor de ponteiro no hover */
+    margin-top: 20px; /* Espaçamento superior do botão */
+    border-radius: 10px; /* Bordas arredondadas */
+    animation: exploreAnimation 2s infinite alternate; /* Adicionar animação ao botão */
+  }
+  
+  /* Animação do botão "Explorar" usando keyframes */
+  @keyframes exploreAnimation {
+    0% {
+      transform: scale(1); /* Escala inicial do botão */
+      opacity: 1; /* Opacidade inicial */
+    }
+    50% {
+      transform: scale(1.2); /* Escala intermediária durante a animação */
+      opacity: 0.7; /* Opacidade reduzida no meio da animação */
+    }
+    100% {
+      transform: scale(1); /* Escala final do botão */
+      opacity: 1; /* Opacidade final */
+    }
+  }
+  
+  /* Efeito de hover no botão "Explorar" */
+  button:hover {
+    background-color: #a3e042; /* Cor de fundo alterada no hover */
+  }
+  
+  /* Estilo para as imagens */
+  img {
+    width: 500px; /* Largura máxima da imagem */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção original */
+    margin-top: 20px; /* Espaçamento superior da imagem */
+    display: block; /* Tornar a imagem um bloco para centralização */
+    margin-left: auto; /* Centralizar a imagem horizontalmente */
+    margin-right: auto;
+  }
+  

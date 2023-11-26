@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaoPeaão PetShop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="6style-calendario.css"> <!-- Incluindo o arquivo CSS externo -->
+</head>
+
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <!-- Botão de retorno -->
+        <a href="4formulario.html">
+            <button class="return-button">↩️</button>
+        </a>
+        <!-- Informações no cabeçalho -->
+        <div class="header-info">
+            <span>Agendamento</span>
+        </div>
+        <!-- Botão do carrinho -->
+        <a href="8pedido.html">
+            <button class="cart-button">🛒</button>
+        </a>
+    </header>
+
+    <!-- Seção principal da página -->
+    <main>
+        <h2>Selecione o dia e hora</h2>
+        <p>Último passo para seu pet ficar ainda mais lindo!</p>
+        <p>Selecione a data e hora:</p>
+        <!-- Campo de entrada para a data e hora -->
+        <input type="text" id="datetimePicker" placeholder="Clique para selecionar">
+        <!-- Botão para finalizar -->
+        <button id="finalizeButton" onclick="finalize()">Clique aqui para finalizar</button>
+    </main>
+
+    <!-- Incluindo a biblioteca Flatpickr -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <!-- Incluindo o arquivo de script externo -->
+    <script src="6js-calendario.js"></script>
+
+</body>
+
+</html>

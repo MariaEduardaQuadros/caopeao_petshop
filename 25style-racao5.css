@@ -1,0 +1,63 @@
+body {
+    background-color: #ffffff; /* Cor de fundo branca */
+    text-align: center; /* Alinhamento do texto no centro */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+    margin: 0; /* Margem zero para o corpo */
+    padding: 20px; /* Preenchimento de 20 pixels para o corpo */
+}
+
+header {
+    display: flex; /* Utiliza o modelo de layout flexível */
+    justify-content: space-between; /* Distribui o espaço entre os itens do cabeçalho */
+    align-items: center; /* Centraliza verticalmente os itens do cabeçalho */
+    padding: 20px; /* Preenchimento de 20 pixels para o cabeçalho */
+    background-color: #ffffff; /* Cor de fundo branca */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para o cabeçalho */
+    width: 100%; /* Largura total */
+    box-sizing: border-box; /* Modelo de caixa inclui a borda no tamanho total */
+}
+
+#carousel {
+    width: 80%; /* Largura do carrossel */
+    margin: 20px auto; /* Margem externa automática */
+    overflow: hidden; /* Esconde as partes excedentes do carrossel */
+    position: relative; /* Posicionamento relativo ao contêiner pai */
+}
+
+#carousel img {
+    width: 100%; /* Largura total da imagem */
+    max-width: 300px; /* Largura máxima da imagem */
+    margin: 0 auto; /* Margem automática nas laterais para centralizar a imagem */
+    display: none; /* Inicialmente, oculta todas as imagens do carrossel */
+}
+
+#carousel img.active {
+    display: block; /* Exibe apenas a imagem ativa do carrossel */
+}
+
+#produto {
+    margin-top: 20px; /* Margem superior para o bloco de produto */
+}
+
+#preco {
+    background-color: #00ff00; /* Cor de fundo verde para o bloco de preço */
+    padding: 10px; /* Preenchimento de 10 pixels */
+    display: inline-block; /* Exibição em linha com o conteúdo vizinho */
+}
+
+#botao-carrinho {
+    background-color: #3498db; /* Cor de fundo azul para o botão */
+    color: #ffffff; /* Cor do texto branco */
+    padding: 10px 20px; /* Preenchimento de 10 pixels na vertical e 20 pixels na horizontal */
+    font-size: 16px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto no centro */
+    text-decoration: none; /* Sem decoração de texto (sublinhado) */
+    display: inline-block; /* Exibição em linha com o conteúdo vizinho */
+    cursor: pointer; /* Cursor do mouse tipo ponteiro */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-top: 20px; /* Margem superior para o botão */
+}
+
+#botao-carrinho:hover {
+    background-color: #2980b9; /* Cor de fundo azul mais escura ao passar o mouse sobre o botão */
+}

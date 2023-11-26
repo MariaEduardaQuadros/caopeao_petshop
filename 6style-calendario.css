@@ -1,0 +1,96 @@
+/* Define estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;  /* Define a fonte para o corpo da página */
+    margin: 0;                      /* Remove margens padrão */
+    padding: 0;                     /* Remove espaçamento interno padrão */
+    background-color: #ffffff;       /* Define a cor de fundo como branco */
+    color: #000000;                 /* Define a cor do texto como preto */
+    display: flex;                  /* Usa o modelo de layout flexível */
+    flex-direction: column;         /* Alinha os filhos em uma coluna */
+    align-items: center;            /* Centraliza os itens ao longo do eixo transversal */
+    justify-content: center;        /* Centraliza os itens ao longo do eixo principal */
+    height: 100vh;                  /* Define a altura como 100% da altura da tela */
+}
+
+/* Define estilos para o cabeçalho */
+header {
+    background-color: #f0f0f0;       /* Define a cor de fundo do cabeçalho como cinza claro */
+    padding: 10px;                   /* Adiciona espaçamento interno de 10 pixels */
+    display: flex;                   /* Usa o modelo de layout flexível */
+    justify-content: space-between;  /* Distribui o espaço entre os elementos filhos */
+    width: 100%;                     /* Define a largura como 100% */
+    position: absolute;              /* Define a posição como absoluta em relação ao elemento pai mais próximo */
+    top: 0;                          /* Alinha o topo do cabeçalho com o topo da página */
+}
+
+/* Define estilos para botões de retorno e carrinho */
+.return-button, .cart-button {
+    background-color: #ffffff;        /* Define a cor de fundo como branco */
+    color: #3498db;                  /* Define a cor do texto como azul claro */
+    padding: 10px;                   /* Adiciona espaçamento interno de 10 pixels */
+    border: 1px solid #3498db;       /* Adiciona uma borda de 1 pixel sólida com a cor azul claro */
+    cursor: pointer;                 /* Altera o cursor para indicar que é clicável */
+    border-radius: 10px;             /* Adiciona bordas arredondadas com raio de 10 pixels */
+}
+
+/* Define estilos para informações no cabeçalho */
+.header-info {
+    text-align: center;              /* Centraliza o texto no cabeçalho */
+    flex-grow: 1;                    /* Permite que o elemento cresça para preencher o espaço disponível */
+    margin: 10px;                    /* Adiciona margem de 10 pixels */
+}
+
+/* Estilo para o texto especial no cabeçalho */
+.header-info span {
+    font-size: 20px;                 /* Define o tamanho da fonte como 20 pixels */
+    color: #3498db;                  /* Define a cor do texto como azul claro */
+}
+
+/* Define estilos para botões de retorno e carrinho com tamanho de fonte */
+.return-button, .cart-button {
+    font-size: 20px;                 /* Define o tamanho da fonte como 20 pixels */
+    cursor: pointer;                 /* Altera o cursor para indicar que é clicável */
+}
+
+/* Define estilos para a seção principal da página */
+main {
+    text-align: center;              /* Centraliza o texto */
+    margin: 20px;                    /* Adiciona margem de 20 pixels */
+    width: 80%;                      /* Define a largura como 80% */
+}
+
+/* Define estilos para cabeçalho de segundo nível (h2) */
+h2 {
+    color: blue;                    /* Define a cor do texto como azul */
+}
+
+/* Define estilos para h2 e p com margem na parte inferior */
+h2, p {
+    margin-bottom: 20px;            /* Adiciona margem inferior de 20 pixels */
+}
+
+/* Define estilos para um elemento com o ID "datetimePicker" */
+#datetimePicker {
+    width: 100%;                     /* Define a largura como 100% */
+    padding: 10px;                   /* Adiciona espaçamento interno de 10 pixels */
+    box-sizing: border-box;          /* Inclui a largura e a altura na contagem total do tamanho da caixa */
+    font-size: 16px;                 /* Define o tamanho da fonte como 16 pixels */
+}
+
+/* Define estilos para um botão com o ID "finalizeButton" */
+#finalizeButton {
+    background-color: blue;          /* Define a cor de fundo como azul */
+    color: white;                    /* Define a cor do texto como branco */
+    padding: 10px;                   /* Adiciona espaçamento interno de 10 pixels */
+    border: none;                    /* Remove a borda */
+    cursor: pointer;                 /* Altera o cursor para indicar que é clicável */
+    border-radius: 5px;              /* Adiciona bordas arredondadas com raio de 5 pixels */
+    margin-top: 20px;                /* Adiciona margem superior de 20 pixels */
+}
+
+/* Define estilos para um link com o ID "redirectLink" */
+#redirectLink {
+    color: blue;                    /* Define a cor do texto como azul */
+    text-decoration: none;           /* Remove a decoração de texto padrão (sublinhado) */
+    margin-top: 10px;                /* Adiciona margem superior de 10 pixels */
+}

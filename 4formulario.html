@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Configuração de codificação e viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página -->
+    <title>CãoPeaão PetShop</title>
+
+    <!-- Vínculo ao arquivo de estilos CSS externo -->
+    <link rel="stylesheet" href="4style-formulario.css">
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <a href="3banhoTosa.html">
+            <button class="return-button">↩️</button>
+        </a>
+        <div class="header-info">
+            <span>Banho e Tosa</span>
+        </div>
+        <a href="8pedido.html">
+            <button class="cart-button">🛒</button>
+        </a>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <h2>Formulário para Serviço de Banho e Tosa</h2>
+        <p>Queremos oferecer um serviço especialmente para o seu pet.</p>
+
+        <!-- Adicione o ID ao formulário para referenciar no script -->
+        <form id="banhoTosaForm">
+            <!-- Adicione os novos campos -->
+            <div>
+                <label for="petName">Informe o nome do seu pet:</label>
+                <input type="text" id="petName" name="petName" required>
+            </div>
+
+            <div>
+                <label for="yourName">Informe seu nome:</label>
+                <input type="text" id="yourName" name="yourName" required>
+            </div>
+
+            <div>
+                <label for="petInfo">Digite a raça e porte do seu pet:</label>
+                <input type="text" id="petInfo" name="petInfo" required>
+            </div>
+
+            <div>
+                <label for="temperament">Selecione o temperamento do seu pet:</label>
+                <select id="temperament" name="temperament">
+                    <option value="amigavel">Amigável</option>
+                    <option value="agressivo">Agressivo</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="checkBox">Aceitar termos e condições:</label>
+                <input type="checkbox" id="checkBox" name="checkBox">
+            </div>
+
+            <!-- Alteração no botão para ser do tipo button -->
+            <a href="5formulariohumano.html">
+            <button type="button" onclick="submitForm()">Clique aqui para continuar</button>
+            </a>
+        </form>
+    </main>
+
+    <!-- Adicione o script para lidar com o redirecionamento -->
+    <script src="4js-formulario.js"></script>
+
+</body>
+</html>

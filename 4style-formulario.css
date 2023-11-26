@@ -1,0 +1,119 @@
+/* Estilo global para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo do texto */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Define o fundo branco */
+    color: #000000; /* Define a cor preta para o texto padrão */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Define a altura do corpo da página como 100% da altura da viewport */
+}
+
+/* Estilos adicionados para centralizar o conteúdo do formulário */
+main {
+    text-align: center;
+    margin: 20px auto; /* Define margens superior e inferior de 20 pixels e laterais automáticas para centralizar o conteúdo */
+    width: 80%; /* Define a largura do elemento como 80% do contêiner pai */
+}
+
+/* Estilo para o cabeçalho da página */
+header {
+    background-color: #f0f0f0; /* Define a cor de fundo do cabeçalho */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Alinha os elementos do cabeçalho com espaço entre eles */
+    width: 100%;
+    position: absolute;
+    top: 0; /* Fixa o cabeçalho no topo da página */
+}
+
+/* Estilo para os botões de retorno e carrinho no cabeçalho */
+.return-button, .cart-button {
+    background-color: #ffffff; /* Define a cor de fundo dos botões */
+    color: #3498db; /* Define a cor do texto dos botões */
+    padding: 10px;
+    border: 1px solid #3498db; /* Adiciona uma borda azul nos botões */
+    cursor: pointer;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+/* Estilo para a informação no cabeçalho */
+.header-info {
+    text-align: center;
+    flex-grow: 1; /* Faz com que o elemento cresça para ocupar o espaço restante */
+    padding: 10px;
+}
+
+/* Estilo para o texto especial no cabeçalho */
+.header-info span {
+    font-size: 20px;
+    color: #3498db;
+}
+
+/* Estilo para o subtítulo do formulário */
+h2 {
+    color: #000000; /* Define a cor preta para o texto do cabeçalho */
+}
+
+/* Estilo para o parágrafo informativo */
+p {
+    color: #3498db; /* Define a cor azul para o texto especial */
+    margin-bottom: 20px;
+}
+
+/* Estilo para o formulário */
+form {
+    text-align: left;
+}
+
+/* Adicione um estilo para os novos elementos */
+input[type="checkbox"],
+input[type="number"],
+input[type="email"],
+input[type="date"] {
+    width: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilo para os rótulos do formulário */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000; /* Define a cor preta para os rótulos do formulário */
+}
+
+/* Estilos para os campos de digitação e seleção */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #3498db; /* Define a cor azul para a borda */
+    border-radius: 5px; /* Adiciona borda arredondada */
+    outline: none; /* Remove a borda ao clicar */
+}
+
+/* Estilos para os checkboxes */
+input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+/* Estilos para o botão de envio do formulário */
+button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Adiciona borda arredondada */
+}
+
+/* Estilos para o link do botão */
+.button-link {
+    text-decoration: none;
+    color: #ffffff;
+}

@@ -1,0 +1,73 @@
+/* Configurações gerais para o corpo da página */
+body {
+    background-color: #ffffff; /* Cor de fundo branco */
+    text-align: center; /* Centraliza o texto */
+    font-family: Arial, sans-serif; /* Define a família de fontes */
+    margin: 0; /* Remove as margens padrão */
+    padding: 20px; /* Adiciona um espaçamento interno de 20px */
+}
+
+/* Estilo do cabeçalho da página */
+header {
+    display: flex; /* Usa o modelo de layout flexível */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    align-items: center; /* Centraliza verticalmente os elementos */
+    padding: 20px; /* Adiciona espaçamento interno de 20px */
+    background-color: #ffffff; /* Cor de fundo branca */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra sutil */
+    width: 100%; /* Largura total da página */
+    box-sizing: border-box; /* Inclui a borda e o preenchimento na largura total */
+}
+
+/* Estilo do carrossel de imagens */
+#carousel {
+    width: 80%; /* Largura do carrossel */
+    margin: 20px auto; /* Centraliza o carrossel e adiciona margem superior */
+    overflow: hidden; /* Oculta o conteúdo que ultrapassa o contêiner */
+    position: relative; /* Define o contexto de posicionamento para os elementos filhos */
+}
+
+/* Estilo das imagens dentro do carrossel */
+#carousel img {
+    width: 100%; /* Largura total da imagem */
+    max-width: 300px; /* Largura máxima da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    display: none; /* Inicialmente, as imagens são ocultas */
+}
+
+/* Exibe a imagem ativa no carrossel */
+#carousel img.active {
+    display: block; /* Exibe a imagem marcada como ativa */
+}
+
+/* Estilo da seção de produtos */
+#produto {
+    margin-top: 20px; /* Adiciona margem superior para separar da seção anterior */
+}
+
+/* Estilo do elemento de preço */
+#preco {
+    background-color: #00ff00; /* Cor de fundo verde */
+    padding: 10px; /* Adiciona espaçamento interno de 10px */
+    display: inline-block; /* Permite que outros elementos fiquem ao lado dele */
+}
+
+/* Estilo do botão de carrinho de compras */
+#botao-carrinho {
+    background-color: #3498db; /* Cor de fundo azul */
+    color: #ffffff; /* Cor do texto branco */
+    padding: 10px 20px; /* Adiciona espaçamento interno de 10px nas bordas superior e inferior e 20px nas laterais */
+    font-size: 16px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove a decoração de texto padrão */
+    display: inline-block; /* Permite que outros elementos fiquem ao lado dele */
+    cursor: pointer; /* Muda o cursor ao passar por cima para indicar que é clicável */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    margin-top: 20px; /* Adiciona margem superior */
+}
+
+/* Efeito de hover para o botão de carrinho de compras */
+#botao-carrinho:hover {
+    background-color: #2980b9; /* Cor de fundo azul mais escura ao passar o mouse */
+}
+
