@@ -97,3 +97,14 @@ h1, h2, p {
     cursor: pointer;
     margin: 20px;
 }
+
+footer {
+    text-align: center; 
+    margin-top: 20px; 
+    background-color: #add8e6; 
+    padding: 20px;
+}
+
+footer p {
+    margin-top: 10px;
+}
